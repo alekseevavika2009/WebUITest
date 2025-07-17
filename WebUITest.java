@@ -38,7 +38,7 @@ public class WebUITest {
         item.shouldBe(visible);
 
         SelenideElement itemName = $("#item_4_title_link");
-        itemName.$(".inventory_item_name").shouldHave(text("Sause Labs Backpack"));
+        itemName.$(".inventory_item_name").shouldHave(text("Sauce Labs Backpack"));
     }
 
 }
